@@ -1,7 +1,7 @@
 class Cheese < ApplicationRecord
   
   def summary
-    "#{name}: $#{price}"
+    "#{name} cheese by $#{price}"
   end
 
 end
